@@ -3,6 +3,7 @@ s = "MCMXCIV"
 def convert(s):
     res= 0
     for i in range(len(list(s))):
+
         if s[i]=="I":
             res+=1
         elif s[i]=="V" and i!=0 and s[i-1]=="I":
