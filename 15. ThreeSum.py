@@ -4,16 +4,10 @@ def threeSums(nums, target):
     nums = sorted(nums)
     n = len(nums)
     result = []
-    
-    
-
-
     hashmap = {}
 
     for i in range(n):
         hashmap[nums[i]] = i
-
-
     for i in range(n):
         j = i+1
         k = n-1
@@ -139,10 +133,6 @@ def triplet(nums, target):
     return ans
 
 
-ans = [0,0,0,0]
+ans = [0,0,0,0,3,4]
 print(triplet(ans, 0))
 
-
-
-
- 
